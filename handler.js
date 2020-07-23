@@ -4,7 +4,7 @@ module.exports.myIP = async (event) => {
       statusCode: 200,
       body: JSON.stringify(
         {
-          sourceIP: 'unknown',
+          sourceIp: 'unknown',
           event,
         },
         null,
@@ -20,7 +20,7 @@ module.exports.myIP = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        sourceIP: clientIP,
+        sourceIp: clientIP,
       },
       null,
       2
